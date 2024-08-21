@@ -45,8 +45,8 @@ for i in {1..20}; do python xpehh2slidingWindow.py --input popABD_popE.chr${i}.x
     max_normxpehh: 窗口内normxpehh最大值
     min_normxpehh: 窗口内normxpehh最小值
 
-#结果对比
-可以看到脚本统计结果，跟selscan norm的结果对比，统一窗口的结果统计数值是相同的，只不过我们滑窗统计的，另外我们没有统计selscan norm的7、8列（不清楚目的，感觉没用就没加）。
+## 结果对比
+从下图可以看到脚本统计结果，跟selscan norm的结果对比，统一窗口的结果统计数值是相同的，只不过我们滑窗统计的，另外我们没有统计selscan norm的7、8列（不清楚目的，感觉没用就没加）。
 另外我又加了一个窗口内norm_xpehh的均值、中位数、最大值和最小值这些，方便大家通过各种指标进行窗口的筛选。
 
 ![结果对比](file/compare_result.png)
