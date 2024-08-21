@@ -21,7 +21,7 @@ optional arguments:
 ```
 
 ## 用法
-例如对于selscan输出的chr8的“.out”结果，用下面的命令滑窗统计
+直接下载 xpehh2slidingWindow.py文件到你目录下使用，例如对于selscan输出的chr8的“.out”结果，用下面的命令滑窗统计
 Running command: 
 ```sh
 python xpehh2slidingWindow.py --input popABD_popE.chr8.xpehh.out --window 20000 --step 10000 --chr 8
