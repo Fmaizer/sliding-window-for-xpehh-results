@@ -68,7 +68,7 @@ def normalize_and_window_statistics_xpehh(input,window, step, chr):
 
 def main():
     # 创建解析步骤
-    parser = argparse.ArgumentParser(description="For normalizing and window statistics of XPEHH results. selscan的结果是逐条染色体来处理的，这个脚本也是一次只能对一条染色体滑窗统计，处理哪条染色体你就给--chr加上那个染色体的号，不能写错染色体号，否则可能造成严重后果！！！如果想批量你就在linux下写个循环,批量处理所有染色体。")
+    parser = argparse.ArgumentParser(description="For normalizing and window statistics of XPEHH results")
     parser.add_argument("--input", required=True, help="Input file (required, xpehh result)")
     parser.add_argument("--window", type=int, default=20000, help="window size (default 20000)")
     parser.add_argument("--step", type=int, default=10000, help="step size (default 10000)")
